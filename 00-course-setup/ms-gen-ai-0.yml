@@ -1,0 +1,9 @@
+name: ms-gen-ai-0
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+- ipykernel # for notebooks
+- python-dotenv # get env variables
+- openai
+- tiktoken # from conda-forge
